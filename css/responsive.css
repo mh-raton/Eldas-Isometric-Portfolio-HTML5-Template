@@ -1,12 +1,71 @@
 /* Normal desktop(xl):1200px. */
 @media (min-width: 1200px) and (max-width: 1500px) {
-	.main-menu nav ul li a {
-		padding: 26px 32px !important;
-	}
+    .main-menu nav ul li a {
+        padding: 26px 32px !important;
+    }
 
-	.header-right span {
-		margin-right: 16px !important;
-	}	
+    .header-right span {
+        margin-right: 16px !important;
+    }
+
+    .line:nth-child(1) {
+        position: absolute;
+        left: 158px;
+        bottom: 308px;
+        z-index: -1;
+    }
+
+    .line:nth-child(2) {
+        position: absolute;
+        left: 37%;
+        top: 37px;
+        z-index: -1;
+    }
+
+    .line:nth-child(3) {
+        position: absolute;
+        right: 465px;
+        top: 95px;
+        z-index: -1;
+    }
+
+    .line:nth-child(4) {
+        position: absolute;
+        right: 65px;
+        top: -41px;
+        z-index: -1;
+    }
+
+    .single-product-desc:nth-child(1) {
+        position: absolute;
+        top: -76px;
+        left: 42px;
+    }
+
+    .single-product-desc:nth-child(2) {
+        position: absolute;
+        left: 364px;
+        top: -200px;
+    }
+
+    .single-product-desc:nth-child(3) {
+        position: absolute;
+        right: 331px;
+        top: -136px;
+    }
+
+    .single-product-desc:nth-child(4) {
+        position: absolute;
+        right: 32px;
+        top: -280px;
+    }
+
+    /* ==============Homepage-2=================== */
+    .single-new-features p,
+    .single-new-features.right-side p {
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
 
 /* Normal desktop (lg):992px. */
@@ -107,7 +166,8 @@
     }
 
     .line:nth-child(3) {
-        right: 269px;
+        right: 243px;
+        top: 104px;
     }
 
     .line:nth-child(4) {
@@ -117,6 +177,7 @@
 
     .single-product-desc:nth-child(1) {
         top: -155px;
+        left: 20px;
     }
 
     .single-product-desc:nth-child(2) {
@@ -142,7 +203,7 @@
     }
 
     .features-title p {
-        font-size: 12px;
+        font-size: 13px;
     }
 
     .single-blog.mt-65 {
@@ -172,6 +233,12 @@
 
     .single-portfolio.second:hover .portfolio-desc.second {
         bottom: -94px;
+    }
+
+    .single-new-features p,
+    .single-new-features.right-side p {
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .features-title.second h2 {
@@ -225,6 +292,10 @@
     }
 
     /* ============== Homepage-4 ============== */
+    .services-area.pt-155 {
+        padding-top: 0;
+    }
+
     .submit-form input[type="submit"] {
         right: 40px;
     }
@@ -252,8 +323,8 @@
     }
 
     .single-offer::before {
-        width: 87%;
-        left: 26px;
+        width: 92.5%;
+        left: 15px;
     }
 
     .video-title h1 {
@@ -334,6 +405,11 @@
 
     .slider-title p {
         font-size: 15px;
+        padding-right: 38px;
+    }
+
+    .services-area.pt-75 {
+        padding-top: 0;
     }
 
     .vector img {
@@ -458,6 +534,10 @@
         top: -62px;
     }
 
+    .features-title p {
+        font-size: 13px;
+    }
+
     .product-description h5 {
         font-size: 14px;
     }
@@ -512,7 +592,7 @@
 
     /* ============== Homepage-2 ============== */
     .single-slider.second {
-        min-height: 903px;
+        min-height: 800px;
     }
 
     .slider-title.second h1 {
@@ -554,6 +634,12 @@
 
     .client-say.second h1 {
         font-size: 57px;
+    }
+
+    .single-new-features p,
+    .single-new-features.right-side p {
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .features-title.second p {
@@ -995,6 +1081,12 @@
         font-size: 30px;
     }
 
+    .single-new-features p,
+    .single-new-features.right-side p {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
     .product-title-area.second.pb-120 {
         padding-bottom: 30px;
     }
@@ -1018,10 +1110,6 @@
     /* ============== Homepage-3 ============== */
     .single-slider.third {
         min-height: 465px;
-    }
-
-    .slider-title.third p {
-        font-size: 11px;
     }
 
     .slider-title.third {
@@ -1336,7 +1424,11 @@
     }
 
     .slider-title p {
-        font-size: 12px;
+        font-size: 13px;
+    }
+
+    .services-area.pt-75 {
+        padding-top: 0;
     }
 
     .vector {
@@ -1442,11 +1534,15 @@
     }
 
     .single-slider.second .slider-title p {
-        font-size: 11px;
+        font-size: 15px;
     }
 
     .vector.second {
         margin-top: 205px;
+    }
+
+    .services-area.pt-130 {
+        padding-top: 0;
     }
 
     .vector-img.second {

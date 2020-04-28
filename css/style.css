@@ -564,7 +564,7 @@ label {
 
 /* ============== Homepage-2 slider ============== */
 .single-slider.second {
-	min-height: 1056px;
+	min-height: 1233px;
 }
 
 .slider-btn a.btn.second {
@@ -1566,6 +1566,15 @@ label {
 	line-height: 1.6;
 }
 
+.single-new-features p {
+	padding-left: 185px;
+}
+
+.single-new-features.right-side p {
+	padding-right: 185px;
+	padding-left: 0;
+}
+
 .new-features-icon {
 	margin-left: 30px;
 }
@@ -1655,29 +1664,29 @@ label {
 
 .line:nth-child(1) {
 	position: absolute;
-	left: 158px;
-	bottom: 308px;
+	left: 231px;
+	bottom: 230px;
 	z-index: -1;
 }
 
 .line:nth-child(2) {
 	position: absolute;
-	left: 37%;
-	top: 37px;
+	left: 617px;
+	top: 72px;
 	z-index: -1;
 }
 
 .line:nth-child(3) {
 	position: absolute;
-	right: 465px;
-	top: 95px;
+	right: 743px;
+	top: 128px;
 	z-index: -1;
 }
 
 .line:nth-child(4) {
 	position: absolute;
-	right: 65px;
-	top: -41px;
+	right: 140px;
+	top: -85px;
 	z-index: -1;
 }
 
@@ -1709,26 +1718,26 @@ label {
 
 .single-product-desc:nth-child(1) {
 	position: absolute;
-	top: -76px;
-	left: 42px;
+	top: 49px;
+	left: 120px;
 }
 
 .single-product-desc:nth-child(2) {
 	position: absolute;
-	left: 364px;
-	top: -200px;
+	left: 495px;
+	top: -168px;
 }
 
 .single-product-desc:nth-child(3) {
 	position: absolute;
-	right: 331px;
-	top: -136px;
+	right: 642px;
+	top: -116px;
 }
 
 .single-product-desc:nth-child(4) {
 	position: absolute;
 	right: 32px;
-	top: -280px;
+	top: -318px;
 }
 
 .features-title {
@@ -1751,7 +1760,7 @@ label {
 }
 
 .features-title p {
-	font-size: 14px;
+	font-size: 17px;
 	line-height: 1.9;
 	color: #fff;
 }
